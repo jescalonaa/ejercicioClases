@@ -1,4 +1,4 @@
-package com.aiep;
+package com.aiep.a20200530;
 
 import java.util.Scanner;
 
