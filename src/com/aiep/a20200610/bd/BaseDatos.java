@@ -1,4 +1,4 @@
-package com.aiep.a20200610;
+package com.aiep.a20200610.bd;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
