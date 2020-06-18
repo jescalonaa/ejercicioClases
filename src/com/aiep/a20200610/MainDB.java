@@ -23,9 +23,10 @@ public class MainDB {
 		//Instancia del controller
 		//ArquitecturaController ac = new ArquitecturaController();
 
-		//seteamos los datps
-		basedato.setsUsuario("Alexis");
-		basedato.setiPuerto(3307);
+		//seteamos los datos
+		basedato.setsUsuario("israel");
+		basedato.setsPassword("secret");
+		basedato.setiPuerto(3306);
 		basedato.setsServidor("127.0.0.1");
 		basedato.setsBaseDatos("arquitectura");
 		

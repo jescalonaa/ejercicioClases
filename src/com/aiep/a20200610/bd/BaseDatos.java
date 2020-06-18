@@ -29,6 +29,7 @@ public class BaseDatos {
 		//retorno la conexion
 		return conexion;
 	}
+	
 	//lo utilizaremos a priori
 	/*
 	public BaseDatos() {
@@ -108,5 +109,14 @@ public class BaseDatos {
 		this.sBaseDatos = sBaseDatos;
 	}
 	
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			DriverManager.getConnection("jdbc:mysql://localhost:3306/arquitectura","israel","secret");
+			System.out.println("conexión ok");
+		} catch (Exception e) {
+			System.out.println("Error de conexión");
+		}
+	}
 
 }
