@@ -79,7 +79,7 @@ public class MainDB {
 				}
 					
 			} catch (Exception e2) {
-				System.out.println("Error al cerrar la conexiones "+ e2);
+				System.out.println("Error al cerrar la conexiones ");
 			}
 		}
 
